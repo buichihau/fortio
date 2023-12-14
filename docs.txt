@@ -1,0 +1,1 @@
+docker exec -it fortio fortio load -qps 60 -t 120s http://192.168.2.192:31080

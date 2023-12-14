@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+
+ fortio:
+    image: fortio/fortio
+    container_name: fortio
+    restart: always
+    volumes:
+       - /etc/localtime:/etc/localtime:ro
+    network_mode: "host"
